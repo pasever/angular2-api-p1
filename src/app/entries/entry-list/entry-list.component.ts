@@ -1,14 +1,10 @@
 import { Component } from '@angular/core';
-import { AppComponent } from '../../app.component';
 
 @Component ({
     selector: 'app-entry-list',
-    declarations: [
-        AppComponent,
-        EntryListComponent
-    ],
-    boostrap: [AppComponent]
+    templateUrl: 'entry-list.component.html',
+    styleUrls: ['entry-list.component.css']
 })
-export class AppModule {
+export class EntryListComponent {
 
 }
